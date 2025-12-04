@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Sridhar - Professional Journey | Frontend Architect & Creative Technologist</title>
+    <meta name="description" content="Discover Sridhar's 18+ year evolution from graphic designer to frontend architect. A unique professional who bridges creativity and technology to architect digital experiences that matter." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+    <script type="module" async src="/js/web.js"></script>
+    <script type="module" defer src="/js/shot.js"></script>
+</head>
+<body class="bg-background">
+    <!-- Smart Header Navigation -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-secondary-200/50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-text-primary">Sridhar</h1>
+                        <p class="text-xs text-text-secondary">Frontend Architect</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-smooth">Home</a>
+                    <a href="about.html" class="text-primary font-semibold border-b-2 border-primary pb-1">About</a>
+                    <a href="portfolio.html" class="text-text-secondary hover:text-primary transition-smooth">Portfolio</a>
+                    <a href="contact.html" class="text-text-secondary hover:text-primary transition-smooth">Contact</a>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="contact.html" class="btn-primary">Let's Collaborate</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-secondary-100 transition-smooth">
+                    <svg class="w-6 h-6 text-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-secondary-200">
+                <div class="flex flex-col space-y-4 pt-4">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-smooth">Home</a>
+                    <a href="about.html" class="text-primary font-semibold">About</a>
+                    <a href="portfolio.html" class="text-text-secondary hover:text-primary transition-smooth">Portfolio</a>
+                    <a href="contact.html" class="text-text-secondary hover:text-primary transition-smooth">Contact</a>
+                    <a href="contact.html" class="btn-primary w-full text-center mt-4">Let's Collaborate</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 bg-gradient-to-br from-primary-50 via-white to-accent-50 relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                <defs>
+                    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#grid)"/>
+            </svg>
+        </div>
+
+        <div class="container mx-auto px-6 relative">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Hero Content -->
+                <div class="space-y-8 animate-fade-in">
+                    <div class="space-y-4">
+                        <div class="inline-flex items-center space-x-2 bg-primary-100 text-primary-700 px-4 py-2 rounded-full text-sm font-medium">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>18+ Years of Evolution</span>
+                        </div>
+                        
+                        <h1 class="text-4xl lg:text-6xl font-bold text-text-primary leading-tight">
+                            From 
+                            <span class="text-gradient">Creative Vision</span> 
+                            to 
+                            <span class="text-gradient">Technical Mastery</span>
+                        </h1>
+                        
+                        <p class="text-xl text-text-secondary leading-relaxed max-w-2xl">
+                            My journey embodies the rare fusion of artistic intuition and engineering precision. I don't just build applications—I architect digital experiences that transform how people interact with technology.
+                        </p>
+                    </div>
+
+                    <!-- Philosophy Statement -->
+                    <div class="bg-white/80 backdrop-blur-sm rounded-xl p-6 border border-secondary-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gradient-to-br from-accent to-primary rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-text-primary mb-2">Core Philosophy</h3>
+                                <p class="text-text-secondary italic">"Technology should simplify, empower, and inspire. Every line of code should serve a human purpose, and every design decision should enhance the user's journey."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual -->
+                <div class="relative animate-slide-up">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Sridhar - Professional Journey" class="w-full h-96 lg:h-[500px] object-cover rounded-2xl shadow-soft-hover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        
+                        <!-- Floating Achievement Cards -->
+                        <div class="absolute -top-4 -right-4 bg-white rounded-xl p-4 shadow-soft">
+                            <div class="text-center">
+                                <div class="text-2xl font-bold text-primary">18+</div>
+                                <div class="text-sm text-text-secondary">Years Experience</div>
+                            </div>
+                        </div>
+                        
+                        <div class="absolute -bottom-4 -left-4 bg-white rounded-xl p-4 shadow-soft">
+                            <div class="text-center">
+                                <div class="text-2xl font-bold text-accent">23+</div>
+                                <div class="text-sm text-text-secondary">Projects Delivered</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Professional Timeline -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">Professional Evolution</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    A journey of continuous growth, from creative foundations to technical leadership
+                </p>
+            </div>
+
+            <!-- Timeline Container -->
+            <div class="relative">
+                <!-- Timeline Line -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-primary to-accent h-full rounded-full"></div>
+
+                <!-- Timeline Items -->
+                <div class="space-y-12">
+                    <!-- 2006-2010: Graphic Design Foundation -->
+                    <div class="timeline-item flex items-center" data-year="2006-2010">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="card p-6 hover:shadow-soft-hover transition-smooth cursor-pointer timeline-card">
+                                <div class="flex items-center justify-end space-x-3 mb-4">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-text-primary">Creative Foundation</h3>
+                                        <p class="text-sm text-text-secondary">2006 - 2010</p>
+                                    </div>
+                                    <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="text-text-secondary mb-4">Started as a graphic designer, mastering visual communication, typography, and brand identity. Built foundation in Adobe Creative Suite and design thinking principles.</p>
+                                <div class="timeline-details hidden">
+                                    <div class="border-t border-secondary-200 pt-4 mt-4">
+                                        <h4 class="font-semibold text-text-primary mb-2">Key Achievements:</h4>
+                                        <ul class="text-sm text-text-secondary space-y-1">
+                                            <li>• Designed 100+ brand identities for local businesses</li>
+                                            <li>• Mastered print and digital design workflows</li>
+                                            <li>• Developed eye for visual hierarchy and user psychology</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-white border-4 border-primary rounded-full"></div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+
+                    <!-- 2010-2014: Web Design Transition -->
+                    <div class="timeline-item flex items-center" data-year="2010-2014">
+                        <div class="w-1/2 pr-8"></div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-white border-4 border-accent rounded-full"></div>
+                        <div class="w-1/2 pl-8">
+                            <div class="card p-6 hover:shadow-soft-hover transition-smooth cursor-pointer timeline-card">
+                                <div class="flex items-center space-x-3 mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-text-primary">Digital Transition</h3>
+                                        <p class="text-sm text-text-secondary">2010 - 2014</p>
+                                    </div>
+                                </div>
+                                <p class="text-text-secondary mb-4">Transitioned to web design, learning HTML, CSS, and early JavaScript. Discovered the intersection of design and code, sparking passion for interactive experiences.</p>
+                                <div class="timeline-details hidden">
+                                    <div class="border-t border-secondary-200 pt-4 mt-4">
+                                        <h4 class="font-semibold text-text-primary mb-2">Key Achievements:</h4>
+                                        <ul class="text-sm text-text-secondary space-y-1">
+                                            <li>• Built first 50 responsive websites</li>
+                                            <li>• Mastered CSS animations and jQuery</li>
+                                            <li>• Developed understanding of user experience principles</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2014-2018: Frontend Development -->
+                    <div class="timeline-item flex items-center" data-year="2014-2018">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="card p-6 hover:shadow-soft-hover transition-smooth cursor-pointer timeline-card">
+                                <div class="flex items-center justify-end space-x-3 mb-4">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-text-primary">Frontend Mastery</h3>
+                                        <p class="text-sm text-text-secondary">2014 - 2018</p>
+                                    </div>
+                                    <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M12 10.11c1.03 0 1.87.84 1.87 1.89s-.84 1.89-1.87 1.89c-1.03 0-1.87-.84-1.87-1.89s.84-1.89 1.87-1.89M7.37 20c.63.38 2.01-.2 3.6-1.7-.52-.59-1.03-1.23-1.51-1.9a22.7 22.7 0 0 1-2.4-.36c-.51 2.14-.32 3.61.31 3.96m.71-5.74l-.29-.51c-.11.29-.22.58-.29.86.27.06.57.11.88.16l-.3-.51m6.54-.76l.81-1.5-.81-1.5c-.3-.53-.62-1-.91-1.47C13.17 9 12.6 9 12 9s-1.17 0-1.71.03c-.29.47-.61.94-.91 1.47L8.57 12l.81 1.5c.3.53.62 1 .91 1.47.54.03 1.11.03 1.71.03s1.17 0 1.71-.03c.29-.47.61-.94.91-1.47M12 6.78c-.19.22-.39.45-.59.72h1.18c-.2-.27-.4-.5-.59-.72m0 10.44c.19-.22.39-.45.59-.72h-1.18c.2.27.4.5.59.72M16.62 4c-.62-.38-2 .2-3.59 1.7.52.59 1.03 1.23 1.51 1.9.82.08 1.63.2 2.4.36.51-2.14.32-3.61-.32-3.96m-.7 5.74l.29.51c.11-.29.22-.58.29-.86-.27-.06-.57-.11-.88-.16l.3.51m1.45-7.05c1.47.84 1.63 3.05 1.01 5.63 2.54.75 4.37 1.99 4.37 3.68s-1.83 2.93-4.37 3.68c.62 2.58.46 4.79-1.01 5.63-1.46.84-3.45-.12-5.37-1.95-1.92 1.83-3.91 2.79-5.37 1.95-1.47-.84-1.63-3.05-1.01-5.63-2.54-.75-4.37-1.99-4.37-3.68s1.83-2.93 4.37-3.68c-.62-2.58-.46-4.79 1.01-5.63 1.46-.84 3.45.12 5.37 1.95 1.92-1.83 3.91-2.79 5.37-1.95"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="text-text-secondary mb-4">Deep dive into modern JavaScript frameworks. Mastered React.js and Angular, building complex single-page applications and understanding component-based architecture.</p>
+                                <div class="timeline-details hidden">
+                                    <div class="border-t border-secondary-200 pt-4 mt-4">
+                                        <h4 class="font-semibold text-text-primary mb-2">Key Achievements:</h4>
+                                        <ul class="text-sm text-text-secondary space-y-1">
+                                            <li>• Led development of 20+ React applications</li>
+                                            <li>• Implemented state management with Redux</li>
+                                            <li>• Mentored junior developers in modern frameworks</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-white border-4 border-primary rounded-full"></div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+
+                    <!-- 2018-2022: Project Leadership -->
+                    <div class="timeline-item flex items-center" data-year="2018-2022">
+                        <div class="w-1/2 pr-8"></div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-white border-4 border-accent rounded-full"></div>
+                        <div class="w-1/2 pl-8">
+                            <div class="card p-6 hover:shadow-soft-hover transition-smooth cursor-pointer timeline-card">
+                                <div class="flex items-center space-x-3 mb-4">
+                                    <div class="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-text-primary">Leadership Evolution</h3>
+                                        <p class="text-sm text-text-secondary">2018 - 2022</p>
+                                    </div>
+                                </div>
+                                <p class="text-text-secondary mb-4">Evolved into project coordination role, bridging technical teams with business stakeholders. Developed expertise in agile methodologies and cross-functional collaboration.</p>
+                                <div class="timeline-details hidden">
+                                    <div class="border-t border-secondary-200 pt-4 mt-4">
+                                        <h4 class="font-semibold text-text-primary mb-2">Key Achievements:</h4>
+                                        <ul class="text-sm text-text-secondary space-y-1">
+                                            <li>• Coordinated 15+ enterprise-level projects</li>
+                                            <li>• Improved delivery timelines by 40% on average</li>
+                                            <li>• Built high-performing cross-functional teams</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2022-Present: Frontend Architecture -->
+                    <div class="timeline-item flex items-center" data-year="2022-Present">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="card p-6 hover:shadow-soft-hover transition-smooth cursor-pointer timeline-card">
+                                <div class="flex items-center justify-end space-x-3 mb-4">
+                                    <div>
+                                        <h3 class="text-xl font-bold text-text-primary">Architecture Mastery</h3>
+                                        <p class="text-sm text-text-secondary">2022 - Present</p>
+                                    </div>
+                                    <div class="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
+                                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <p class="text-text-secondary mb-4">Current role as Frontend Architect, designing scalable systems and leading technical strategy. Combining 18+ years of experience to architect digital experiences that matter.</p>
+                                <div class="timeline-details hidden">
+                                    <div class="border-t border-secondary-200 pt-4 mt-4">
+                                        <h4 class="font-semibold text-text-primary mb-2">Current Focus:</h4>
+                                        <ul class="text-sm text-text-secondary space-y-1">
+                                            <li>• Architecting enterprise-scale React applications</li>
+                                            <li>• Leading digital transformation initiatives</li>
+                                            <li>• Mentoring next generation of developers</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-white border-4 border-primary rounded-full"></div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Progression Visualization -->
+    <section class="py-16 bg-secondary-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">Technology Evolution</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Tracking the progression of skills and technology adoption throughout my career
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Design Skills -->
+                <div class="card p-6 text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-2">Design Foundation</h3>
+                    <p class="text-text-secondary mb-4">2006 - 2010</p>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>Adobe Creative Suite</span>
+                            <span class="text-primary font-medium">Expert</span>
+                        </div>
+                        <div class="w-full bg-secondary-200 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-purple-500 to-purple-600 h-2 rounded-full" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Technologies -->
+                <div class="card p-6 text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-2">Web Technologies</h3>
+                    <p class="text-text-secondary mb-4">2010 - 2014</p>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>HTML/CSS/JS</span>
+                            <span class="text-primary font-medium">Expert</span>
+                        </div>
+                        <div class="w-full bg-secondary-200 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-green-500 to-green-600 h-2 rounded-full" style="width: 92%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modern Frameworks -->
+                <div class="card p-6 text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 10.11c1.03 0 1.87.84 1.87 1.89s-.84 1.89-1.87 1.89c-1.03 0-1.87-.84-1.87-1.89s.84-1.89 1.87-1.89M7.37 20c.63.38 2.01-.2 3.6-1.7-.52-.59-1.03-1.23-1.51-1.9a22.7 22.7 0 0 1-2.4-.36c-.51 2.14-.32 3.61.31 3.96m.71-5.74l-.29-.51c-.11.29-.22.58-.29.86.27.06.57.11.88.16l-.3-.51m6.54-.76l.81-1.5-.81-1.5c-.3-.53-.62-1-.91-1.47C13.17 9 12.6 9 12 9s-1.17 0-1.71.03c-.29.47-.61.94-.91 1.47L8.57 12l.81 1.5c.3.53.62 1 .91 1.47.54.03 1.11.03 1.71.03s1.17 0 1.71-.03c.29-.47.61-.94.91-1.47M12 6.78c-.19.22-.39.45-.59.72h1.18c-.2-.27-.4-.5-.59-.72m0 10.44c.19-.22.39-.45.59-.72h-1.18c.2.27.4.5.59.72M16.62 4c-.62-.38-2 .2-3.59 1.7.52.59 1.03 1.23 1.51 1.9.82.08 1.63.2 2.4.36.51-2.14.32-3.61-.32-3.96m-.7 5.74l.29.51c.11-.29.22-.58.29-.86-.27-.06-.57-.11-.88-.16l.3.51m1.45-7.05c1.47.84 1.63 3.05 1.01 5.63 2.54.75 4.37 1.99 4.37 3.68s-1.83 2.93-4.37 3.68c.62 2.58.46 4.79-1.01 5.63-1.46.84-3.45-.12-5.37-1.95-1.92 1.83-3.91 2.79-5.37 1.95-1.47-.84-1.63-3.05-1.01-5.63-2.54-.75-4.37-1.99-4.37-3.68s1.83-2.93 4.37-3.68c-.62-2.58-.46-4.79 1.01-5.63 1.46-.84 3.45.12 5.37 1.95 1.92-1.83 3.91-2.79 5.37-1.95"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-2">React & Angular</h3>
+                    <p class="text-text-secondary mb-4">2014 - 2018</p>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>Modern Frameworks</span>
+                            <span class="text-primary font-medium">Expert</span>
+                        </div>
+                        <div class="w-full bg-secondary-200 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-blue-500 to-blue-600 h-2 rounded-full" style="width: 96%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Architecture & Leadership -->
+                <div class="card p-6 text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-2">Architecture</h3>
+                    <p class="text-text-secondary mb-4">2018 - Present</p>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>System Design</span>
+                            <span class="text-primary font-medium">Expert</span>
+                        </div>
+                        <div class="w-full bg-secondary-200 rounded-full h-2">
+                            <div class="bg-gradient-to-r from-primary to-accent h-2 rounded-full" style="width: 94%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational Credibility & Associations -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">Educational Excellence & Associations</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Continuous learning and collaboration with prestigious institutions and industry leaders
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Harvard Collaboration -->
+                <div class="card-elevated p-6 text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-red-600 to-red-700 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <span class="text-white font-bold text-2xl">H</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-2">Harvard University</h3>
+                    <p class="text-text-secondary mb-4">Collaborative project development and research initiatives in digital transformation and user experience design.</p>
+                    <div class="flex items-center justify-center space-x-2 text-sm text-success-600">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Active Collaboration</span>
+                    </div>
+                </div>
+
+                <!-- Professional Certifications -->
+                <div class="card-elevated p-6 text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-2">Professional Certifications</h3>
+                    <p class="text-text-secondary mb-4">AWS Solutions Architect, Google Cloud Professional, React Advanced Patterns, and Agile Project Management certifications.</p>
+                    <div class="flex items-center justify-center space-x-2 text-sm text-success-600">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Continuously Updated</span>
+                    </div>
+                </div>
+
+                <!-- Industry Recognition -->
+                <div class="card-elevated p-6 text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-accent to-primary rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-2">Industry Recognition</h3>
+                    <p class="text-text-secondary mb-4">Speaker at React conferences, contributor to open-source projects, and recognized thought leader in frontend architecture.</p>
+                    <div class="flex items-center justify-center space-x-2 text-sm text-success-600">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Active Speaker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Values & Approach -->
+    <section class="py-16 bg-gradient-to-br from-primary-50 via-white to-accent-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">Core Values & Approach</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    The principles that guide every project, decision, and collaboration
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Innovation -->
+                <div class="card p-6 text-center hover:shadow-soft-hover transition-smooth">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-3">Innovation First</h3>
+                    <p class="text-text-secondary">Constantly exploring emerging technologies and methodologies to deliver cutting-edge solutions that push boundaries.</p>
+                </div>
+
+                <!-- User-Centric -->
+                <div class="card p-6 text-center hover:shadow-soft-hover transition-smooth">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-3">User-Centric Design</h3>
+                    <p class="text-text-secondary">Every decision is made with the end user in mind, ensuring experiences that are intuitive, accessible, and delightful.</p>
+                </div>
+
+                <!-- Collaboration -->
+                <div class="card p-6 text-center hover:shadow-soft-hover transition-smooth">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-3">Collaborative Spirit</h3>
+                    <p class="text-text-secondary">Building bridges between teams, stakeholders, and technologies to create unified solutions that exceed expectations.</p>
+                </div>
+
+                <!-- Quality -->
+                <div class="card p-6 text-center hover:shadow-soft-hover transition-smooth">
+                    <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-3">Quality Excellence</h3>
+                    <p class="text-text-secondary">Commitment to delivering robust, scalable, and maintainable solutions that stand the test of time and growth.</p>
+                </div>
+
+                <!-- Growth Mindset -->
+                <div class="card p-6 text-center hover:shadow-soft-hover transition-smooth">
+                    <div class="w-16 h-16 bg-gradient-to-br from-accent to-primary rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-3">Growth Mindset</h3>
+                    <p class="text-text-secondary">Embracing challenges as opportunities to learn, adapt, and evolve both personally and professionally.</p>
+                </div>
+
+                <!-- Mentorship -->
+                <div class="card p-6 text-center hover:shadow-soft-hover transition-smooth">
+                    <div class="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-3">Knowledge Sharing</h3>
+                    <p class="text-text-secondary">Passionate about mentoring the next generation and contributing to the developer community through teaching and guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-gradient-to-br from-primary to-accent text-white relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                <defs>
+                    <pattern id="cta-grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#cta-grid)"/>
+            </svg>
+        </div>
+
+        <div class="container mx-auto px-6 text-center relative">
+            <h2 class="text-3xl lg:text-4xl font-bold mb-4">Ready to Bridge Creativity and Technology Together?</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+                Let's combine my 18+ years of evolution with your vision to create digital experiences that truly matter. From concept to completion, I'll be your strategic partner in transformation.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-secondary-100 transition-smooth inline-flex items-center justify-center space-x-2">
+                    <span>Start Our Journey</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                    </svg>
+                </a>
+                <a href="portfolio.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-smooth inline-flex items-center justify-center space-x-2">
+                    <span>Explore My Work</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold">Sridhar</h3>
+                            <p class="text-sm text-secondary-300">Frontend Architect</p>
+                        </div>
+                    </div>
+                    <p class="text-secondary-300">
+                        Bridging creativity and technology for 18+ years. Transforming ideas into exceptional digital experiences.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="homepage.html" class="block text-secondary-300 hover:text-white transition-smooth">Home</a>
+                        <a href="about.html" class="block text-secondary-300 hover:text-white transition-smooth">About</a>
+                        <a href="portfolio.html" class="block text-secondary-300 hover:text-white transition-smooth">Portfolio</a>
+                        <a href="contact.html" class="block text-secondary-300 hover:text-white transition-smooth">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <div class="space-y-2">
+                        <div class="text-secondary-300">Frontend Development</div>
+                        <div class="text-secondary-300">Project Coordination</div>
+                        <div class="text-secondary-300">UI/UX Design</div>
+                        <div class="text-secondary-300">Technical Consulting</div>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="font-semibold mb-4">Get in Touch</h4>
+                    <div class="space-y-2">
+                        <div class="flex items-center space-x-2 text-secondary-300">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <span><a href="mailto:sree.sridhar06@gmail.com"  class="block text-secondary-300 hover:text-white transition-smooth" >sree.sridhar06@gmail.com</a></span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-secondary-300">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            <span class="text-secondary-300">Chennai, India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-secondary-700 mt-8 pt-8 text-center">
+                <p class="text-secondary-300">
+                    © 2025 Sridhar. All Rights Reserved. | Crafted with passion for digital excellence.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactive Timeline and Mobile Menu -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Header Scroll Effect
+        const header = document.getElementById('header');
+        let lastScrollY = window.scrollY;
+
+        window.addEventListener('scroll', () => {
+            const currentScrollY = window.scrollY;
+            
+            if (currentScrollY > 100) {
+                header.classList.add('shadow-soft');
+            } else {
+                header.classList.remove('shadow-soft');
+            }
+            
+            lastScrollY = currentScrollY;
+        });
+
+        // Interactive Timeline
+        const timelineCards = document.querySelectorAll('.timeline-card');
+        
+        timelineCards.forEach(card => {
+            card.addEventListener('click', () => {
+                const details = card.querySelector('.timeline-details');
+                const isHidden = details.classList.contains('hidden');
+                
+                // Close all other details
+                timelineCards.forEach(otherCard => {
+                    const otherDetails = otherCard.querySelector('.timeline-details');
+                    otherDetails.classList.add('hidden');
+                    otherCard.classList.remove('ring-2', 'ring-primary');
+                });
+                
+                // Toggle current details
+                if (isHidden) {
+                    details.classList.remove('hidden');
+                    card.classList.add('ring-2', 'ring-primary');
+                } else {
+                    details.classList.add('hidden');
+                    card.classList.remove('ring-2', 'ring-primary');
+                }
+            });
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and sections
+        document.querySelectorAll('.card, .card-elevated, .timeline-item, section').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

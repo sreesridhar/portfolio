@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services - Sridhar | Frontend Development & Technical Consulting</title>
+    <meta name="description" content="Comprehensive service offerings including Frontend Development, UI/UX Design, and Technical Consulting. Expert React.js, Angular development with proven results." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+    <script type="module" async src="/js/web.js"></script>
+    <script type="module" defer src="/js/shot.js"></script>
+  </head>
+<body class="bg-background">
+    <!-- Smart Header Navigation -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white/90 backdrop-blur-md border-b border-secondary-200/50">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-text-primary">Sridhar</h1>
+                        <p class="text-xs text-text-secondary">Frontend Architect</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-smooth">Home</a>
+                    <a href="about.html" class="text-text-secondary hover:text-primary transition-smooth">About</a>
+                    <a href="services.html" class="text-primary font-semibold border-b-2 border-primary pb-1">Services</a>
+                    <a href="experience.html" class="text-text-secondary hover:text-primary transition-smooth">Experience</a>
+                    <a href="portfolio.html" class="text-text-secondary hover:text-primary transition-smooth">Portfolio</a>
+                    <a href="contact.html" class="text-text-secondary hover:text-primary transition-smooth">Contact</a>
+                </div>
+
+                <!-- CTA Button -->
+                <div class="hidden md:block">
+                    <a href="contact.html" class="btn-primary">Let's Collaborate</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-secondary-100 transition-smooth">
+                    <svg class="w-6 h-6 text-text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-secondary-200">
+                <div class="flex flex-col space-y-4 pt-4">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-smooth">Home</a>
+                    <a href="about.html" class="text-text-secondary hover:text-primary transition-smooth">About</a>
+                    <a href="services.html" class="text-primary font-semibold">Services</a>
+                    <a href="experience.html" class="text-text-secondary hover:text-primary transition-smooth">Experience</a>
+                    <a href="portfolio.html" class="text-text-secondary hover:text-primary transition-smooth">Portfolio</a>
+                    <a href="contact.html" class="text-text-secondary hover:text-primary transition-smooth">Contact</a>
+                    <a href="contact.html" class="btn-primary w-full text-center mt-4">Let's Collaborate</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-24 pb-16 bg-gradient-to-br from-primary-50 via-white to-accent-50 relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                <defs>
+                    <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#grid)"/>
+            </svg>
+        </div>
+
+        <div class="container mx-auto px-6 text-center relative">
+            <div class="max-w-4xl mx-auto space-y-8">
+                <div class="inline-flex items-center space-x-2 bg-primary-100 text-primary-700 px-4 py-2 rounded-full text-sm font-medium">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>Comprehensive Service Offerings</span>
+                </div>
+                
+                <h1 class="text-4xl lg:text-6xl font-bold text-text-primary leading-tight">
+                    Transform Your <span class="text-gradient">Digital Vision</span> Into Reality
+                </h1>
+                
+                <p class="text-xl text-text-secondary leading-relaxed max-w-3xl mx-auto">
+                    From cutting-edge frontend development to strategic technical consulting, I deliver comprehensive solutions that drive business growth and user engagement.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#services" class="btn-primary inline-flex items-center justify-center space-x-2">
+                        <span>Explore Services</span>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                        </svg>
+                    </a>
+                    <a href="contact.html" class="btn-secondary inline-flex items-center justify-center space-x-2">
+                        <span>Start Your Project</span>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Categories Overview -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">Service Categories</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Comprehensive solutions tailored to your unique business requirements
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Frontend Development -->
+                <div class="card-elevated p-8 text-center hover:shadow-soft-hover transition-smooth group">
+                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-smooth">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 10.11c1.03 0 1.87.84 1.87 1.89s-.84 1.89-1.87 1.89c-1.03 0-1.87-.84-1.87-1.89s.84-1.89 1.87-1.89M7.37 20c.63.38 2.01-.2 3.6-1.7-.52-.59-1.03-1.23-1.51-1.9a22.7 22.7 0 0 1-2.4-.36c-.51 2.14-.32 3.61.31 3.96m.71-5.74l-.29-.51c-.11.29-.22.58-.29.86.27.06.57.11.88.16l-.3-.51m6.54-.76l.81-1.5-.81-1.5c-.3-.53-.62-1-.91-1.47C13.17 9 12.6 9 12 9s-1.17 0-1.71.03c-.29.47-.61.94-.91 1.47L8.57 12l.81 1.5c.3.53.62 1 .91 1.47.54.03 1.11.03 1.71.03s1.17 0 1.71-.03c.29-.47.61-.94.91-1.47M12 6.78c-.19.22-.39.45-.59.72h1.18c-.2-.27-.4-.5-.59-.72m0 10.44c.19-.22.39-.45.59-.72h-1.18c.2.27.4.5.59.72M16.62 4c-.62-.38-2 .2-3.59 1.7.52.59 1.03 1.23 1.51 1.9.82.08 1.63.2 2.4.36.51-2.14.32-3.61-.32-3.96m-.7 5.74l.29.51c.11-.29.22-.58.29-.86-.27-.06-.57-.11-.88-.16l.3.51m1.45-7.05c1.47.84 1.63 3.05 1.01 5.63 2.54.75 4.37 1.99 4.37 3.68s-1.83 2.93-4.37 3.68c.62 2.58.46 4.79-1.01 5.63-1.46.84-3.45-.12-5.37-1.95-1.92 1.83-3.91 2.79-5.37 1.95-1.47-.84-1.63-3.05-1.01-5.63-2.54-.75-4.37-1.99-4.37-3.68s1.83-2.93 4.37-3.68c-.62-2.58-.46-4.79 1.01-5.63 1.46-.84 3.45.12 5.37 1.95 1.92-1.83 3.91-2.79 5.37-1.95"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-text-primary mb-4">Frontend Development</h3>
+                    <p class="text-text-secondary mb-6 leading-relaxed">
+                        Expert React.js and Angular development with performance optimization, responsive design, and modern architecture patterns.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center justify-center space-x-2 text-sm">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                            <span class="text-text-secondary">React.js • Angular • Vue.js</span>
+                        </div>
+                        <div class="flex items-center justify-center space-x-2 text-sm">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                            <span class="text-text-secondary">Performance Optimization</span>
+                        </div>
+                        <div class="flex items-center justify-center space-x-2 text-sm">
+                            <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
+                            <span class="text-text-secondary">Responsive Design</span>
+                        </div>
+                    </div>
+                    <button onclick="toggleService('frontend')" class="text-primary hover:text-primary-700 font-semibold transition-smooth">
+                        View Details →
+                    </button>
+                </div>
+
+                <!-- UI/UX Design -->
+                <div class="card-elevated p-8 text-center hover:shadow-soft-hover transition-smooth group">
+                    <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-smooth">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-text-primary mb-4">UI/UX Design</h3>
+                    <p class="text-text-secondary mb-6 leading-relaxed">
+                        User-centered design approach with user research, prototyping, and design system creation for enhanced user experiences.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center justify-center space-x-2 text-sm">
+                            <div class="w-2 h-2 bg-purple-500 rounded-full"></div>
+                            <span class="text-text-secondary">User Research & Testing</span>
+                        </div>
+                        <div class="flex items-center justify-center space-x-2 text-sm">
+                            <div class="w-2 h-2 bg-purple-500 rounded-full"></div>
+                            <span class="text-text-secondary">Prototyping & Wireframing</span>
+                        </div>
+                        <div class="flex items-center justify-center space-x-2 text-sm">
+                            <div class="w-2 h-2 bg-purple-500 rounded-full"></div>
+                            <span class="text-text-secondary">Design System Creation</span>
+                        </div>
+                    </div>
+                    <button onclick="toggleService('design')" class="text-primary hover:text-primary-700 font-semibold transition-smooth">
+                        View Details →
+                    </button>
+                </div>
+
+                <!-- Technical Consulting -->
+                <div class="card-elevated p-8 text-center hover:shadow-soft-hover transition-smooth group">
+                    <div class="w-20 h-20 bg-gradient-to-br from-accent-500 to-accent-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-smooth">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-text-primary mb-4">Technical Consulting</h3>
+                    <p class="text-text-secondary mb-6 leading-relaxed">
+                        Architecture reviews, code audits, and team mentorship with measurable outcomes and strategic guidance.
+                    </p>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center justify-center space-x-2 text-sm">
+                            <div class="w-2 h-2 bg-accent-500 rounded-full"></div>
+                            <span class="text-text-secondary">Architecture Reviews</span>
+                        </div>
+                        <div class="flex items-center justify-center space-x-2 text-sm">
+                            <div class="w-2 h-2 bg-accent-500 rounded-full"></div>
+                            <span class="text-text-secondary">Code Audits</span>
+                        </div>
+                        <div class="flex items-center justify-center space-x-2 text-sm">
+                            <div class="w-2 h-2 bg-accent-500 rounded-full"></div>
+                            <span class="text-text-secondary">Team Mentorship</span>
+                        </div>
+                    </div>
+                    <button onclick="toggleService('consulting')" class="text-primary hover:text-primary-700 font-semibold transition-smooth">
+                        View Details →
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Service Breakdowns -->
+    <section class="py-16 bg-secondary-50">
+        <div class="container mx-auto px-6">
+            <!-- Frontend Development Details -->
+            <div id="frontend-details" class="hidden mb-16 animate-fade-in">
+                <div class="card-elevated p-8">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-6">
+                                <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 10.11c1.03 0 1.87.84 1.87 1.89s-.84 1.89-1.87 1.89c-1.03 0-1.87-.84-1.87-1.89s.84-1.89 1.87-1.89"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-3xl font-bold text-text-primary">Frontend Development</h3>
+                            </div>
+                            
+                            <div class="space-y-6">
+                                <div>
+                                    <h4 class="text-xl font-semibold text-text-primary mb-3">Technology Stack</h4>
+                                    <div class="grid grid-cols-2 gap-4">
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-3 h-3 bg-blue-500 rounded-full"></div>
+                                            <span class="text-text-secondary">React.js (Advanced)</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                                            <span class="text-text-secondary">Angular (Expert)</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                                            <span class="text-text-secondary">Vue.js (Proficient)</span>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                                            <span class="text-text-secondary">TypeScript (Expert)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h4 class="text-xl font-semibold text-text-primary mb-3">Key Capabilities</h4>
+                                    <ul class="space-y-2">
+                                        <li class="flex items-center space-x-3">
+                                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <span class="text-text-secondary">Component Architecture Design</span>
+                                        </li>
+                                        <li class="flex items-center space-x-3">
+                                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <span class="text-text-secondary">State Management (Redux, Context)</span>
+                                        </li>
+                                        <li class="flex items-center space-x-3">
+                                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <span class="text-text-secondary">Performance Optimization</span>
+                                        </li>
+                                        <li class="flex items-center space-x-3">
+                                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <span class="text-text-secondary">Responsive Design Implementation</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="bg-blue-50 p-4 rounded-lg">
+                                    <div class="flex items-center space-x-2 mb-2">
+                                        <svg class="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-blue-600 font-semibold">Timeline</span>
+                                    </div>
+                                    <p class="text-blue-700">Typical project duration: 6-12 weeks depending on scope</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Frontend Development" class="w-full h-80 object-cover rounded-xl shadow-soft-hover" loading="lazy" onerror="this.src='https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UI/UX Design Details -->
+            <div id="design-details" class="hidden mb-16 animate-fade-in">
+                <div class="card-elevated p-8">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-6">
+                                <div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-3xl font-bold text-text-primary">UI/UX Design</h3>
+                            </div>
+                            
+                            <div class="space-y-6">
+                                <div>
+                                    <h4 class="text-xl font-semibold text-text-primary mb-3">Design Process</h4>
+                                    <div class="space-y-3">
+                                        <div class="flex items-center space-x-3">
+                                            <div class="w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-semibold text-sm">1</div>
+                                            <span class="text-text-secondary">User Research & Analysis</span>
+                                        </div>
+                                        <div class="flex items-center space-x-3">
+                                            <div class="w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-semibold text-sm">2</div>
+                                            <span class="text-text-secondary">Wireframing & Prototyping</span>
+                                        </div>
+                                        <div class="flex items-center space-x-3">
+                                            <div class="w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-semibold text-sm">3</div>
+                                            <span class="text-text-secondary">Visual Design & Testing</span>
+                                        </div>
+                                        <div class="flex items-center space-x-3">
+                                            <div class="w-8 h-8 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center font-semibold text-sm">4</div>
+                                            <span class="text-text-secondary">Design System Creation</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h4 class="text-xl font-semibold text-text-primary mb-3">Deliverables</h4>
+                                    <ul class="space-y-2">
+                                        <li class="flex items-center space-x-3">
+                                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <span class="text-text-secondary">Interactive Prototypes</span>
+                                        </li>
+                                        <li class="flex items-center space-x-3">
+                                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <span class="text-text-secondary">Design System Documentation</span>
+                                        </li>
+                                        <li class="flex items-center space-x-3">
+                                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <span class="text-text-secondary">User Testing Reports</span>
+                                        </li>
+                                        <li class="flex items-center space-x-3">
+                                            <svg class="w-5 h-5 text-success" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <span class="text-text-secondary">Development-Ready Assets</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="bg-purple-50 p-4 rounded-lg">
+                                    <div class="flex items-center space-x-2 mb-2">
+                                        <svg class="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-purple-600 font-semibold">Timeline</span>
+                                    </div>
+                                    <p class="text-purple-700">Typical project duration: 4-8 weeks depending on complexity</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <img src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="UI/UX Design" class="w-full h-80 object-cover rounded-xl shadow-soft-hover" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2016/11/30/20/58/programming-1873854_1280.png'; this.onerror=null;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technical Consulting Details -->
+            <div id="consulting-details" class="hidden mb-16 animate-fade-in">
+                <div class="card-elevated p-8">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <div class="flex items-center space-x-3 mb-6">
+                                <div class="w-12 h-12 bg-gradient-to-br from-accent-500 to-accent-600 rounded-xl flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2V7a2 2 0 00-2-2h-2"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-3xl font-bold text-text-primary">Technical Consulting</h3>
+                            </div>
+                            
+                            <div class="space-y-6">
+                                <div>
+                                    <h4 class="text-xl font-semibold text-text-primary mb-3">Consulting Areas</h4>
+                                    <div class="space-y-3">
+                                        <div class="flex items-start space-x-3">
+                                            <svg class="w-5 h-5 text-accent-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <div>
+                                                <h5 class="font-semibold text-text-primary">Architecture Reviews</h5>
+                                                <p class="text-sm text-text-secondary">Comprehensive analysis of existing codebase and architectural patterns</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-start space-x-3">
+                                            <svg class="w-5 h-5 text-accent-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <div>
+                                                <h5 class="font-semibold text-text-primary">Team Mentorship</h5>
+                                                <p class="text-sm text-text-secondary">Skill development and knowledge transfer for development teams</p>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-start space-x-3">
+                                            <svg class="w-5 h-5 text-accent-500 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                            </svg>
+                                            <div>
+                                                <h5 class="font-semibold text-text-primary">Performance Audits</h5>
+                                                <p class="text-sm text-text-secondary">Identify bottlenecks and optimization opportunities</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <h4 class="text-xl font-semibold text-text-primary mb-3">Measurable Outcomes</h4>
+                                    <div class="grid grid-cols-2 gap-4">
+                                        <div class="text-center p-4 bg-accent-50 rounded-lg">
+                                            <div class="text-2xl font-bold text-accent-600">40%</div>
+                                            <div class="text-sm text-text-secondary">Performance Improvement</div>
+                                        </div>
+                                        <div class="text-center p-4 bg-accent-50 rounded-lg">
+                                            <div class="text-2xl font-bold text-accent-600">60%</div>
+                                            <div class="text-sm text-text-secondary">Faster Development</div>
+                                        </div>
+                                        <div class="text-center p-4 bg-accent-50 rounded-lg">
+                                            <div class="text-2xl font-bold text-accent-600">85%</div>
+                                            <div class="text-sm text-text-secondary">Code Quality Increase</div>
+                                        </div>
+                                        <div class="text-center p-4 bg-accent-50 rounded-lg">
+                                            <div class="text-2xl font-bold text-accent-600">30%</div>
+                                            <div class="text-sm text-text-secondary">Maintenance Reduction</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="bg-accent-50 p-4 rounded-lg">
+                                    <div class="flex items-center space-x-2 mb-2">
+                                        <svg class="w-5 h-5 text-accent-600" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-accent-600 font-semibold">Engagement Models</span>
+                                    </div>
+                                    <p class="text-accent-700">Hourly consulting to full project delivery engagements</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <img src="https://images.pixabay.com/photo/2018/05/18/15/30/web-design-3411373_1280.jpg?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Technical Consulting" class="w-full h-80 object-cover rounded-xl shadow-soft-hover" loading="lazy" onerror="this.src='https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Visualization -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">My Development Process</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    A structured approach ensuring quality delivery and client satisfaction
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Discovery -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-3">Discovery</h3>
+                    <p class="text-text-secondary mb-4">Requirements analysis, stakeholder interviews, and project scope definition</p>
+                    <div class="text-sm text-blue-600 font-semibold">Week 1</div>
+                </div>
+
+                <!-- Design -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-3">Design</h3>
+                    <p class="text-text-secondary mb-4">Wireframing, prototyping, and visual design with iterative feedback</p>
+                    <div class="text-sm text-purple-600 font-semibold">Week 2-3</div>
+                </div>
+
+                <!-- Development -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-3">Development</h3>
+                    <p class="text-text-secondary mb-4">Agile development with regular progress updates and milestone reviews</p>
+                    <div class="text-sm text-green-600 font-semibold">Week 4-10</div>
+                </div>
+
+                <!-- Delivery -->
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-gradient-to-br from-accent-500 to-accent-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-text-primary mb-3">Delivery</h3>
+                    <p class="text-text-secondary mb-4">Testing, deployment, documentation, and post-launch support</p>
+                    <div class="text-sm text-accent-600 font-semibold">Week 11-12</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Comparison Matrix -->
+    <section class="py-16 bg-secondary-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">Choose Your Engagement Model</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Flexible options to match your project needs and budget requirements
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Hourly Consulting -->
+                <div class="card-elevated p-8 text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-text-primary mb-4">Hourly Consulting</h3>
+                    <div class="text-4xl font-bold text-primary mb-2">$85</div>
+                    <div class="text-text-secondary mb-6">per hour</div>
+                    
+                    <ul class="space-y-3 mb-8 text-left">
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Technical guidance & code reviews</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Architecture consultations</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Team mentorship sessions</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Flexible scheduling</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn-secondary w-full">Get Started</a>
+                </div>
+
+                <!-- Project-Based -->
+                <div class="card-elevated p-8 text-center border-2 border-primary relative">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                        <div class="bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold">Most Popular</div>
+                    </div>
+                    
+                    <div class="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-text-primary mb-4">Project-Based</h3>
+                    <div class="text-4xl font-bold text-primary mb-2">$15K+</div>
+                    <div class="text-text-secondary mb-6">starting price</div>
+                    
+                    <ul class="space-y-3 mb-8 text-left">
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Complete project delivery</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Design & development included</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Fixed timeline & budget</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Post-launch support included</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn-primary w-full">Start Project</a>
+                </div>
+
+                <!-- Retainer -->
+                <div class="card-elevated p-8 text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-accent-500 to-accent-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-text-primary mb-4">Monthly Retainer</h3>
+                    <div class="text-4xl font-bold text-primary mb-2">$5K</div>
+                    <div class="text-text-secondary mb-6">per month</div>
+                    
+                    <ul class="space-y-3 mb-8 text-left">
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">40 hours monthly allocation</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Priority support & faster response</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Ongoing optimization & maintenance</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <svg class="w-5 h-5 text-success flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span class="text-text-secondary">Strategic planning sessions</span>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact.html" class="btn-secondary w-full">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-text-primary mb-4">What Clients Say</h2>
+                <p class="text-xl text-text-secondary max-w-3xl mx-auto">
+                    Real results from satisfied clients across various industries
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="John Mitchell" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-semibold text-text-primary">John Mitchell</h4>
+                            <p class="text-sm text-text-secondary">CTO, WEKAN</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary mb-4">
+                        "The DMS project exceeded all expectations. Sridhar's technical expertise combined with excellent project coordination delivered 40% faster results than anticipated."
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex text-yellow-400">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                        </div>
+                        <span class="text-sm text-primary font-semibold">Frontend Development</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Sarah Chen" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-semibold text-text-primary">Sarah Chen</h4>
+                            <p class="text-sm text-text-secondary">Product Manager, Ripplr</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary mb-4">
+                        "The UI/UX redesign transformed our user engagement by 60%. Sridhar's user-centered approach and design system expertise made all the difference."
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex text-yellow-400">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                        </div>
+                        <span class="text-sm text-purple-600 font-semibold">UI/UX Design</span>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card p-6">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Michael Rodriguez" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-semibold text-text-primary">Michael Rodriguez</h4>
+                            <p class="text-sm text-text-secondary">Founder, TechStart</p>
+                        </div>
+                    </div>
+                    <p class="text-text-secondary mb-4">
+                        "Technical consulting with Sridhar helped us scale our architecture and reduce maintenance costs by 30%. His strategic guidance was invaluable."
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex text-yellow-400">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                        </div>
+                        <span class="text-sm text-accent-600 font-semibold">Technical Consulting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-gradient-to-br from-primary to-accent text-white relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <svg class="w-full h-full" viewBox="0 0 100 100" fill="none">
+                <defs>
+                    <pattern id="cta-grid" width="10" height="10" patternUnits="userSpaceOnUse">
+                        <path d="M 10 0 L 0 0 0 10" fill="none" stroke="currentColor" stroke-width="0.5"/>
+                    </pattern>
+                </defs>
+                <rect width="100" height="100" fill="url(#cta-grid)"/>
+            </svg>
+        </div>
+
+        <div class="container mx-auto px-6 text-center relative">
+            <h2 class="text-3xl lg:text-4xl font-bold mb-4">Ready to Start Your Project?</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">
+                Let's discuss your requirements and create a tailored solution that drives real results for your business.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="contact.html" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold hover:bg-secondary-100 transition-smooth inline-flex items-center justify-center space-x-2">
+                    <span>Get Free Consultation</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                    </svg>
+                </a>
+                <a href="portfolio.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-primary transition-smooth inline-flex items-center justify-center space-x-2">
+                    <span>View Work Examples</span>
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
+                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold">Sridhar</h3>
+                            <p class="text-sm text-secondary-300">Frontend Architect</p>
+                        </div>
+                    </div>
+                    <p class="text-secondary-300">
+                        Bridging creativity and technology for 18+ years. Transforming ideas into exceptional digital experiences.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="homepage.html" class="block text-secondary-300 hover:text-white transition-smooth">Home</a>
+                        <a href="about.html" class="block text-secondary-300 hover:text-white transition-smooth">About</a>
+                        <a href="services.html" class="block text-secondary-300 hover:text-white transition-smooth">Services</a>
+                        <a href="experience.html" class="block text-secondary-300 hover:text-white transition-smooth">Experience</a>
+                        <a href="portfolio.html" class="block text-secondary-300 hover:text-white transition-smooth">Portfolio</a>
+                        <a href="contact.html" class="block text-secondary-300 hover:text-white transition-smooth">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <div class="space-y-2">
+                        <div class="text-secondary-300">Frontend Development</div>
+                        <div class="text-secondary-300">UI/UX Design</div>
+                        <div class="text-secondary-300">Technical Consulting</div>
+                        <div class="text-secondary-300">Project Coordination</div>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="font-semibold mb-4">Get in Touch</h4>
+                    <div class="space-y-2">
+                        <div class="flex items-center space-x-2 text-secondary-300">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            <span><a href="mailto:sree.sridhar06@gmail.com"  class="block text-secondary-300 hover:text-white transition-smooth" >sree.sridhar06@gmail.com</a></span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-secondary-300">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                            <span class="text-secondary-300">Chennai, India</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-secondary-700 mt-8 pt-8 text-center">
+                <p class="text-secondary-300">
+                    © 2025 Sridhar. All Rights Reserved. | Crafted with passion for digital excellence.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Header Scroll Effect
+        const header = document.getElementById('header');
+        let lastScrollY = window.scrollY;
+
+        window.addEventListener('scroll', () => {
+            const currentScrollY = window.scrollY;
+            
+            if (currentScrollY > 100) {
+                header.classList.add('shadow-soft');
+            } else {
+                header.classList.remove('shadow-soft');
+            }
+            
+            lastScrollY = currentScrollY;
+        });
+
+        // Service Detail Toggle
+        function toggleService(serviceType) {
+            // Hide all service details
+            document.getElementById('frontend-details').classList.add('hidden');
+            document.getElementById('design-details').classList.add('hidden');
+            document.getElementById('consulting-details').classList.add('hidden');
+            
+            // Show selected service detail
+            document.getElementById(serviceType + '-details').classList.remove('hidden');
+            
+            // Smooth scroll to details
+            document.getElementById(serviceType + '-details').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and sections
+        document.querySelectorAll('.card, .card-elevated, section').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

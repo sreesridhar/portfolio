@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# HTML
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern HTML project utilizing Tailwind CSS for building responsive web applications with minimal setup.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **HTML5** - Modern HTML structure with best practices
+- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
+- **Custom Components** - Pre-built component classes for buttons and containers
+- **NPM Scripts** - Easy-to-use commands for development and building
+- **Responsive Design** - Mobile-first approach for all screen sizes
 
-### `npm start`
+## 📋 Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Node.js (v12.x or higher)
+- npm or yarn
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Installation
 
-### `npm test`
+1. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-### `npm run build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+html_app/
+├── css/
+│   ├── tailwind.css   # Tailwind source file with custom utilities
+│   └── main.css       # Compiled CSS (generated)
+├── pages/             # HTML pages
+├── index.html         # Main entry point
+├── package.json       # Project dependencies and scripts
+└── tailwind.config.js # Tailwind CSS configuration
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎨 Styling
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project uses Tailwind CSS for styling. Custom utility classes include:
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🧩 Customization
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To customize the Tailwind configuration, edit the `tailwind.config.js` file:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Build for Production
 
-## Learn More
+Build the CSS for production:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm run build:css
+# or
+yarn build:css
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📱 Responsive Design
 
-### Code Splitting
+The app is built with responsive design using Tailwind CSS breakpoints:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `sm`: 640px and up
+- `md`: 768px and up
+- `lg`: 1024px and up
+- `xl`: 1280px and up
+- `2xl`: 1536px and up
 
-### Analyzing the Bundle Size
+## 🙏 Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Powered by HTML and Tailwind CSS
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built with ❤️ on [sridhar](https://github.com/sreesridhar)
